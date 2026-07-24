@@ -1,0 +1,124 @@
+Info: Starting: Create simulation model
+Info: qsys-generate D:\QUATUSLITE\AXI_DMA.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=D:\QUATUSLITE\AXI_DMA\simulation --family="MAX 10" --part=10M50DAF484C6GES
+Progress: Loading QUATUSLITE/AXI_DMA.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding mm_master_bfm_0 [altera_avalon_mm_master_bfm 18.1]
+Info: altera_avalon_mm_master_bfm: Preferred Simulation Language is set to None.
+Progress: Parameterizing module mm_master_bfm_0
+Progress: Adding msgdma_0 [altera_msgdma 18.1]
+Progress: Parameterizing module msgdma_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding st_sink_bfm_0 [altera_avalon_st_sink_bfm 18.1]
+Info: altera_avalon_st_sink_bfm: Preferred Simulation Language is set to None.
+Progress: Parameterizing module st_sink_bfm_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: AXI_DMA.st_sink_bfm_0: Use Packets set to zero - omitting sink_startofpacket, sink_endofpacket and sink_empty ports
+Info: AXI_DMA.st_sink_bfm_0: Use Empty set to zero - omitting sink_empty port
+Info: AXI_DMA.st_sink_bfm_0: Use Error set to zero - omitting sink_error port
+Info: AXI_DMA.msgdma_0.st_source/st_sink_bfm_0.sink: Max channel is 0 for source and 1 for sink. Avalon-ST Adapter will be inserted..
+Info: AXI_DMA.msgdma_0.st_source/st_sink_bfm_0.sink: The sink has a channel signal of 1 bits, but the source does not. Avalon-ST Adapter will be inserted.
+Info: AXI_DMA: Generating AXI_DMA "AXI_DMA" for SIM_VERILOG
+Info: avalon_st_adapter: Inserting channel_adapter: channel_adapter_0
+Info: mm_master_bfm_0: "AXI_DMA" instantiated altera_avalon_mm_master_bfm "mm_master_bfm_0"
+Info: msgdma_0: "AXI_DMA" instantiated altera_msgdma "msgdma_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'AXI_DMA_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec D:/quatuslite/quartus/bin64/perl/bin/perl.exe -I D:/quatuslite/quartus/bin64/perl/lib -I D:/quatuslite/quartus/sopc_builder/bin/europa -I D:/quatuslite/quartus/sopc_builder/bin/perl_lib -I D:/quatuslite/quartus/sopc_builder/bin -I D:/quatuslite/quartus/../ip/altera/sopc_builder_ip/common -I D:/quatuslite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- D:/quatuslite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=AXI_DMA_onchip_memory2_0 --dir=C:/Users/Admin/AppData/Local/Temp/alt0654_4042314515978010647.dir/0003_onchip_memory2_0_gen/ --quartus_dir=D:/quatuslite/quartus --verilog --config=C:/Users/Admin/AppData/Local/Temp/alt0654_4042314515978010647.dir/0003_onchip_memory2_0_gen//AXI_DMA_onchip_memory2_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Admin/AppData/Local/Temp/alt0654_4042314515978010647.dir/0003_onchip_memory2_0_gen/  ]
+Info: onchip_memory2_0: Done RTL generation for module 'AXI_DMA_onchip_memory2_0'
+Info: onchip_memory2_0: "AXI_DMA" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: st_sink_bfm_0: "AXI_DMA" instantiated altera_avalon_st_sink_bfm "st_sink_bfm_0"
+Info: Reusing file D:/QUATUSLITE/AXI_DMA/simulation/submodules/verbosity_pkg.sv
+Info: Reusing file D:/QUATUSLITE/AXI_DMA/simulation/submodules/avalon_utilities_pkg.sv
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "AXI_DMA" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: avalon_st_adapter: "AXI_DMA" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: rst_controller: "AXI_DMA" instantiated altera_reset_controller "rst_controller"
+Info: dispatcher_internal: "msgdma_0" instantiated modular_sgdma_dispatcher "dispatcher_internal"
+Info: read_mstr_internal: "msgdma_0" instantiated dma_read_master "read_mstr_internal"
+Info: mm_master_bfm_0_m0_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "mm_master_bfm_0_m0_translator"
+Info: msgdma_0_csr_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "msgdma_0_csr_translator"
+Info: mm_master_bfm_0_m0_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "mm_master_bfm_0_m0_agent"
+Info: msgdma_0_csr_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "msgdma_0_csr_agent"
+Info: msgdma_0_csr_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "msgdma_0_csr_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: mm_master_bfm_0_m0_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "mm_master_bfm_0_m0_limiter"
+Info: Reusing file D:/QUATUSLITE/AXI_DMA/simulation/submodules/altera_avalon_sc_fifo.v
+Info: msgdma_0_csr_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "msgdma_0_csr_burst_adapter"
+Info: Reusing file D:/QUATUSLITE/AXI_DMA/simulation/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file D:/QUATUSLITE/AXI_DMA/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_002"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/QUATUSLITE/AXI_DMA/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file D:/QUATUSLITE/AXI_DMA/simulation/submodules/altera_merlin_arbitrator.sv
+Info: msgdma_0_descriptor_slave_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "msgdma_0_descriptor_slave_rsp_width_adapter"
+Info: Reusing file D:/QUATUSLITE/AXI_DMA/simulation/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file D:/QUATUSLITE/AXI_DMA/simulation/submodules/altera_merlin_burst_uncompressor.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_001: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_001"
+Info: channel_adapter_0: "avalon_st_adapter" instantiated channel_adapter "channel_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_001" instantiated error_adapter "error_adapter_0"
+Info: AXI_DMA: Done "AXI_DMA" with 35 modules, 61 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=D:\QUATUSLITE\AXI_DMA\AXI_DMA.spd --output-directory=D:/QUATUSLITE/AXI_DMA/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=D:\QUATUSLITE\AXI_DMA\AXI_DMA.spd --output-directory=D:/QUATUSLITE/AXI_DMA/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in D:/QUATUSLITE/AXI_DMA/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in D:/QUATUSLITE/AXI_DMA/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in D:/QUATUSLITE/AXI_DMA/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in D:/QUATUSLITE/AXI_DMA/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	33 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in D:/QUATUSLITE/AXI_DMA/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under D:/QUATUSLITE/AXI_DMA/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\QUATUSLITE\AXI_DMA.qsys --block-symbol-file --output-directory=D:\QUATUSLITE\AXI_DMA --family="MAX 10" --part=10M50DAF484C6GES
+Progress: Loading QUATUSLITE/AXI_DMA.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding mm_master_bfm_0 [altera_avalon_mm_master_bfm 18.1]
+Progress: Parameterizing module mm_master_bfm_0
+Progress: Adding msgdma_0 [altera_msgdma 18.1]
+Progress: Parameterizing module msgdma_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding st_sink_bfm_0 [altera_avalon_st_sink_bfm 18.1]
+Progress: Parameterizing module st_sink_bfm_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: AXI_DMA.st_sink_bfm_0: Use Packets set to zero - omitting sink_startofpacket, sink_endofpacket and sink_empty ports
+Info: AXI_DMA.st_sink_bfm_0: Use Empty set to zero - omitting sink_empty port
+Info: AXI_DMA.st_sink_bfm_0: Use Error set to zero - omitting sink_error port
+Info: AXI_DMA.msgdma_0.st_source/st_sink_bfm_0.sink: Max channel is 0 for source and 1 for sink. Avalon-ST Adapter will be inserted..
+Info: AXI_DMA.msgdma_0.st_source/st_sink_bfm_0.sink: The sink has a channel signal of 1 bits, but the source does not. Avalon-ST Adapter will be inserted.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)

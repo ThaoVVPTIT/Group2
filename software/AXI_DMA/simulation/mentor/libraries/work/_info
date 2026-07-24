@@ -1,0 +1,84 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/QUATUSLITE/AXI_DMA/simulation/mentor
+vAXI_DMA
+!s110 1784835377
+!i10b 1
+!s100 5S4UQ^QUEf8K66F@`WR0E0
+I<RDSocMoliB]DZ<`LIfFZ0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1784565346
+8./../AXI_DMA.v
+F./../AXI_DMA.v
+L0 6
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1784835377.000000
+!s107 ./../AXI_DMA.v|
+!s90 -reportprogress|300|./../AXI_DMA.v|
+!i113 1
+Z3 tCvgOpt 0
+n@a@x@i_@d@m@a
+vtb_AXI
+Z4 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z5 DXx25 altera_common_sv_packages 13 verbosity_pkg 0 22 U;?CmO<R30Z69V6V8EBHk3
+Z6 DXx25 altera_common_sv_packages 13 avalon_mm_pkg 0 22 _<MWJdT[F<h=ULMTQ36YO2
+DXx4 work 13 tb_AXI_v_unit 0 22 GMPdY2amOMA=^^=P3WaNm3
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 6`^cTL:;cnZ<DLZ<?J0oP1
+IiZCI^J:DX_R:9kW[=fgkG0
+!s105 tb_AXI_v_unit
+S1
+R0
+Z7 w1784834111
+Z8 8tb_AXI.v
+Z9 Ftb_AXI.v
+L0 4
+R2
+Z10 !s108 1784835589.000000
+Z11 !s107 tb_AXI.v|
+Z12 !s90 -reportprogress|300|-sv|-L|altera_common_sv_packages|tb_AXI.v|
+!i113 1
+Z13 o-sv -L altera_common_sv_packages
+R3
+ntb_@a@x@i
+Xtb_AXI_v_unit
+R4
+R5
+R6
+VGMPdY2amOMA=^^=P3WaNm3
+r1
+!s85 0
+31
+!i10b 1
+!s100 Mld0US<^A=TJmb:Lhe`;60
+IGMPdY2amOMA=^^=P3WaNm3
+!i103 1
+S1
+R0
+R7
+R8
+R9
+L0 2
+R2
+R10
+R11
+R12
+!i113 1
+R13
+R3
+ntb_@a@x@i_v_unit

@@ -1,0 +1,8 @@
+	component AXI_DMA is
+		port (
+			clk_clk              : in  std_logic := 'X'; -- clk
+			msgdma_0_csr_irq_irq : out std_logic;        -- irq
+			reset_reset_n        : in  std_logic := 'X'  -- reset_n
+		);
+	end component AXI_DMA;
+

@@ -1,0 +1,91 @@
+timescale 1ns / 1ps
+
+module tb_AXI();
+
+    // -----------------------------------------------------------
+    // 1. Khai báo tín hiệu Clock và Reset
+    // -----------------------------------------------------------
+    logic clk;
+    logic reset;
+
+    // -----------------------------------------------------------
+    // 2. Gọi (Instantiate) module Top-level của hệ thống Qsys
+    // Tên module phụ thuộc vào tên bạn đã lưu (ví dụ: AXI_DMA)
+    // -----------------------------------------------------------
+    AXI_DMA dut (
+        .clk_clk       (clk),   
+        .reset_reset_n (~reset) // reset_n tích cực mức thấp
+    );
+
+    // Tạo xung clock 50MHz (Chu kỳ 20ns)
+    initial begin
+        clk = 0;
+        forever #10 clk = ~clk;
+    end
+
+    // -----------------------------------------------------------
+    // 3. Khối điều khiển chính (Main Test Sequence)
+    // -----------------------------------------------------------
+    initial begin
+        // --- BƯỚC 1: RESET HỆ THỐNG ---
+        reset = 1;
+        #100;
+        reset = 0;
+        #100;
+        
+        $display("--- [TB] He thong da san sang ---");
+
+        // --- BƯỚC 2: CẤU HÌNH DESCRIPTOR CHO DMA ---
+        // Tại đây, BFM Master sẽ hoạt động giống hệt CPU chạy code bare-metal,
+        // ghi các thông số vào địa chỉ Base của descriptor_slave (0x0000_0020)
+        
+        $display("--- [TB] Bat dau ghi Descriptor... ---");
+        
+        // 1. Ghi Read Address (Địa chỉ nguồn trong RAM)
+        // Offset: 0x00 -> Địa chỉ thực: 0x0000_0020
+        // Giả sử RAM (axi4lite_slave) bắt đầu ở 0x0000_0000
+        axi_master_write(32'h0000_0020, 32'h0000_0000); 
+
+        // 2. Ghi Write Address (Địa chỉ đích)
+        // Offset: 0x04 -> Địa chỉ thực: 0x0000_0024
+        // Vì DMA ở mode Memory-to-Stream nên không xài địa chỉ đích, set = 0
+        axi_master_write(32'h0000_0024, 32'h0000_0000); 
+
+        // 3. Ghi Length (Độ dài gói dữ liệu muốn truyền)
+        // Offset: 0x08 -> Địa chỉ thực: 0x0000_0028
+        // Ví dụ: Truyền 32 bytes (8 Words)
+        axi_master_write(32'h0000_0028, 32'd32); 
+
+        // 4. Ghi Control & GO (Kích hoạt quá trình truyền)
+        // Offset: 0x0C -> Địa chỉ thực: 0x0000_002C
+        // Set bit 31 (GO bit) lên 1 để DMA bắt đầu chạy: 0x8000_0000
+        axi_master_write(32'h0000_002C, 32'h8000_0000); 
+
+        $display("--- [TB] Đã kích hoạt DMA, chờ luồng dữ liệu ở Sink... ---");
+
+        // Chờ một khoảng thời gian để quan sát Waveform
+        #1000;
+        
+        $display("--- [TB] Ket thuc mo phong ---");
+        $stop;
+    end
+
+    // -----------------------------------------------------------
+    // 4. Task phụ trợ: Giao tiếp với AXI Master BFM
+    // -----------------------------------------------------------
+    // Tùy thuộc vào phiên bản thư viện Mentor Graphics, cú pháp gọi hàm
+    // bên trong IP sẽ khác nhau. Dưới đây là logic giả mã (pseudo-logic)
+    // chuẩn để bạn gói gọn việc ghi AXI thành 1 task dễ dùng.
+    task axi_master_write(input [31:0] addr, input [31:0] data);
+        begin
+            // Truy cập trực tiếp vào module BFM qua đường dẫn phân cấp (hierarchy)
+            // Ví dụ: dut.mgc_axi4lite_master_0.mgc_axi4lite_master_inst...
+            // Gọi các API cung cấp sẵn (như set_command_request, push_transaction)
+            
+            // >> CHÈN HÀM API GHI CỦA BFM VÀO ĐÂY <<
+            
+            #20; // Đợi transaction hoàn tất
+        end
+    endtask
+
+endmodule

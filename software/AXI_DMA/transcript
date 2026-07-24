@@ -1,0 +1,1268 @@
+# Reading D:/QUATUSLITE/modelsim_ase/tcl/vsim/pref.tcl
+cd D:/QUATUSLITE/AXI_DMA/simulation/mentor
+# reading modelsim.ini
+do msim_setup.tcl
+# AXI_DMA
+# ./../
+# D:/quatuslite/quartus/
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work ./libraries/work/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work_lib ./libraries/work/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap altera_common_sv_packages ./libraries/altera_common_sv_packages/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap error_adapter_0 ./libraries/error_adapter_0/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap channel_adapter_0 ./libraries/channel_adapter_0/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap avalon_st_adapter_001 ./libraries/avalon_st_adapter_001/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap avalon_st_adapter ./libraries/avalon_st_adapter/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap msgdma_0_descriptor_slave_rsp_width_adapter ./libraries/msgdma_0_descriptor_slave_rsp_width_adapter/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap rsp_mux_001 ./libraries/rsp_mux_001/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap rsp_mux ./libraries/rsp_mux/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap rsp_demux_002 ./libraries/rsp_demux_002/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap cmd_mux_002 ./libraries/cmd_mux_002/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap cmd_mux ./libraries/cmd_mux/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap cmd_demux_001 ./libraries/cmd_demux_001/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap cmd_demux ./libraries/cmd_demux/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap msgdma_0_csr_burst_adapter ./libraries/msgdma_0_csr_burst_adapter/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap mm_master_bfm_0_m0_limiter ./libraries/mm_master_bfm_0_m0_limiter/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap router_004 ./libraries/router_004/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap router_003 ./libraries/router_003/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap router_002 ./libraries/router_002/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap router_001 ./libraries/router_001/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap router ./libraries/router/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap msgdma_0_csr_agent_rsp_fifo ./libraries/msgdma_0_csr_agent_rsp_fifo/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap msgdma_0_csr_agent ./libraries/msgdma_0_csr_agent/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap mm_master_bfm_0_m0_agent ./libraries/mm_master_bfm_0_m0_agent/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap msgdma_0_csr_translator ./libraries/msgdma_0_csr_translator/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap mm_master_bfm_0_m0_translator ./libraries/mm_master_bfm_0_m0_translator/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap read_mstr_internal ./libraries/read_mstr_internal/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap dispatcher_internal ./libraries/dispatcher_internal/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap rst_controller ./libraries/rst_controller/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap mm_interconnect_0 ./libraries/mm_interconnect_0/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap st_sink_bfm_0 ./libraries/st_sink_bfm_0/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap onchip_memory2_0 ./libraries/onchip_memory2_0/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap msgdma_0 ./libraries/msgdma_0/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap mm_master_bfm_0 ./libraries/mm_master_bfm_0/ 
+# Modifying modelsim.ini
+# [exec] file_copy
+# List Of Command Line Aliases
+# 
+# file_copy                                         -- Copy ROM/RAM files to simulation directory
+# 
+# dev_com                                           -- Compile device library files
+# 
+# com                                               -- Compile the design files in correct order
+# 
+# elab                                              -- Elaborate top level design
+# 
+# elab_debug                                        -- Elaborate the top level design with novopt option
+# 
+# ld                                                -- Compile all the design files and elaborate the top level design
+# 
+# ld_debug                                          -- Compile all the design files and elaborate the top level design with -novopt
+# 
+# 
+# 
+# List Of Variables
+# 
+# TOP_LEVEL_NAME                                    -- Top level module name.
+#                                                      For most designs, this should be overridden
+#                                                      to enable the elab/elab_debug aliases.
+# 
+# SYSTEM_INSTANCE_NAME                              -- Instantiated system module name inside top level module.
+# 
+# QSYS_SIMDIR                                       -- Platform Designer base simulation directory.
+# 
+# QUARTUS_INSTALL_DIR                               -- Quartus installation directory.
+# 
+# USER_DEFINED_COMPILE_OPTIONS                      -- User-defined compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_ELAB_OPTIONS                         -- User-defined elaboration options, added to elab/elab_debug aliases.
+# 
+# USER_DEFINED_VHDL_COMPILE_OPTIONS                 -- User-defined vhdl compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_VERILOG_COMPILE_OPTIONS              -- User-defined verilog compile options, added to com/dev_com aliases.
+com
+# [exec] com
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:21 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/verbosity_pkg.sv -work altera_common_sv_packages 
+# -- Compiling package verbosity_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:45:21 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:21 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/avalon_utilities_pkg.sv -work altera_common_sv_packages 
+# -- Compiling package avalon_utilities_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:45:21 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:22 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/avalon_mm_pkg.sv -work altera_common_sv_packages 
+# -- Compiling package avalon_mm_pkg
+# -- Importing package verbosity_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:45:22 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:22 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/AXI_DMA_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0.sv -L altera_common_sv_packages -work error_adapter_0 
+# -- Compiling module AXI_DMA_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0
+# 
+# Top level modules:
+# 	AXI_DMA_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0
+# End time: 20:45:22 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:22 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/AXI_DMA_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv -L altera_common_sv_packages -work error_adapter_0 
+# -- Compiling module AXI_DMA_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	AXI_DMA_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 20:45:22 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:22 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/AXI_DMA_avalon_st_adapter_channel_adapter_0.sv -L altera_common_sv_packages -work channel_adapter_0 
+# -- Compiling module AXI_DMA_avalon_st_adapter_channel_adapter_0
+# 
+# Top level modules:
+# 	AXI_DMA_avalon_st_adapter_channel_adapter_0
+# End time: 20:45:22 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:22 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/AXI_DMA_mm_interconnect_0_avalon_st_adapter_001.v -work avalon_st_adapter_001 
+# -- Compiling module AXI_DMA_mm_interconnect_0_avalon_st_adapter_001
+# 
+# Top level modules:
+# 	AXI_DMA_mm_interconnect_0_avalon_st_adapter_001
+# End time: 20:45:22 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:22 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/AXI_DMA_mm_interconnect_0_avalon_st_adapter.v -work avalon_st_adapter 
+# -- Compiling module AXI_DMA_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	AXI_DMA_mm_interconnect_0_avalon_st_adapter
+# End time: 20:45:22 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:22 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_width_adapter.sv -L altera_common_sv_packages -work msgdma_0_descriptor_slave_rsp_width_adapter 
+# -- Compiling module altera_merlin_width_adapter
+# 
+# Top level modules:
+# 	altera_merlin_width_adapter
+# End time: 20:45:22 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:22 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_address_alignment.sv -L altera_common_sv_packages -work msgdma_0_descriptor_slave_rsp_width_adapter 
+# -- Compiling module altera_merlin_address_alignment
+# 
+# Top level modules:
+# 	altera_merlin_address_alignment
+# End time: 20:45:22 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:22 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_burst_uncompressor.sv -L altera_common_sv_packages -work msgdma_0_descriptor_slave_rsp_width_adapter 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 20:45:22 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:22 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/AXI_DMA_mm_interconnect_0_rsp_mux_001.sv -L altera_common_sv_packages -work rsp_mux_001 
+# -- Compiling module AXI_DMA_mm_interconnect_0_rsp_mux_001
+# 
+# Top level modules:
+# 	AXI_DMA_mm_interconnect_0_rsp_mux_001
+# End time: 20:45:22 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:22 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux_001 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 20:45:22 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:22 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/AXI_DMA_mm_interconnect_0_rsp_mux.sv -L altera_common_sv_packages -work rsp_mux 
+# -- Compiling module AXI_DMA_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	AXI_DMA_mm_interconnect_0_rsp_mux
+# End time: 20:45:22 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:22 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 20:45:22 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:22 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/AXI_DMA_mm_interconnect_0_rsp_demux_002.sv -L altera_common_sv_packages -work rsp_demux_002 
+# -- Compiling module AXI_DMA_mm_interconnect_0_rsp_demux_002
+# 
+# Top level modules:
+# 	AXI_DMA_mm_interconnect_0_rsp_demux_002
+# End time: 20:45:22 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:22 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/AXI_DMA_mm_interconnect_0_cmd_mux_002.sv -L altera_common_sv_packages -work cmd_mux_002 
+# -- Compiling module AXI_DMA_mm_interconnect_0_cmd_mux_002
+# 
+# Top level modules:
+# 	AXI_DMA_mm_interconnect_0_cmd_mux_002
+# End time: 20:45:22 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:22 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux_002 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 20:45:22 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:22 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/AXI_DMA_mm_interconnect_0_cmd_mux.sv -L altera_common_sv_packages -work cmd_mux 
+# -- Compiling module AXI_DMA_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	AXI_DMA_mm_interconnect_0_cmd_mux
+# End time: 20:45:22 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:22 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 20:45:22 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:23 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/AXI_DMA_mm_interconnect_0_cmd_demux_001.sv -L altera_common_sv_packages -work cmd_demux_001 
+# -- Compiling module AXI_DMA_mm_interconnect_0_cmd_demux_001
+# 
+# Top level modules:
+# 	AXI_DMA_mm_interconnect_0_cmd_demux_001
+# End time: 20:45:23 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:23 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/AXI_DMA_mm_interconnect_0_cmd_demux.sv -L altera_common_sv_packages -work cmd_demux 
+# -- Compiling module AXI_DMA_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	AXI_DMA_mm_interconnect_0_cmd_demux
+# End time: 20:45:23 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:23 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_burst_adapter.sv -L altera_common_sv_packages -work msgdma_0_csr_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter
+# End time: 20:45:23 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:23 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_burst_adapter_uncmpr.sv -L altera_common_sv_packages -work msgdma_0_csr_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter_uncompressed_only
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_uncompressed_only
+# End time: 20:45:23 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:23 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_burst_adapter_13_1.sv -L altera_common_sv_packages -work msgdma_0_csr_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter_burstwrap_increment
+# -- Compiling module altera_merlin_burst_adapter_adder
+# -- Compiling module altera_merlin_burst_adapter_subtractor
+# -- Compiling module altera_merlin_burst_adapter_min
+# -- Compiling module altera_merlin_burst_adapter_13_1
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_13_1
+# End time: 20:45:23 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:23 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_burst_adapter_new.sv -L altera_common_sv_packages -work msgdma_0_csr_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter_new
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(500): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(501): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(502): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(503): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(504): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(505): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(506): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(507): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(508): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(509): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(511): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(512): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(513): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(514): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(515): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(516): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(517): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(518): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(519): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(520): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(521): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(522): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(523): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(526): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(527): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(614): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(615): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(616): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(617): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(618): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(619): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(620): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(621): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(622): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(623): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(624): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(625): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(746): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(762): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(860): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(861): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(862): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(863): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(864): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(865): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(866): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(867): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(900): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(901): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(902): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(903): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(940): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(942): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(945): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(947): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1040): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1041): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1042): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1043): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1044): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1045): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1046): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1047): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1048): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1049): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1084): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1085): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1086): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1087): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1088): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1089): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1104): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1106): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1206): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1207): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1208): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1209): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1210): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1211): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1212): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1213): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1214): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1215): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1216): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1256): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1257): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1258): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1259): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1260): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1261): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1291): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_burst_adapter_new.sv(1294): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_new
+# End time: 20:45:23 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 92
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:23 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_incr_burst_converter.sv -L altera_common_sv_packages -work msgdma_0_csr_burst_adapter 
+# -- Compiling module altera_incr_burst_converter
+# ** Warning: ./../submodules/altera_incr_burst_converter.sv(266): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_incr_burst_converter.sv(268): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_incr_burst_converter.sv(283): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_incr_burst_converter.sv(285): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_incr_burst_converter
+# End time: 20:45:23 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:23 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_wrap_burst_converter.sv -L altera_common_sv_packages -work msgdma_0_csr_burst_adapter 
+# -- Compiling module altera_wrap_burst_converter
+# 
+# Top level modules:
+# 	altera_wrap_burst_converter
+# End time: 20:45:23 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:23 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_default_burst_converter.sv -L altera_common_sv_packages -work msgdma_0_csr_burst_adapter 
+# -- Compiling module altera_default_burst_converter
+# ** Warning: ./../submodules/altera_default_burst_converter.sv(102): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_default_burst_converter
+# End time: 20:45:23 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:23 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_address_alignment.sv -L altera_common_sv_packages -work msgdma_0_csr_burst_adapter 
+# -- Compiling module altera_merlin_address_alignment
+# 
+# Top level modules:
+# 	altera_merlin_address_alignment
+# End time: 20:45:23 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:23 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_avalon_st_pipeline_stage.sv -L altera_common_sv_packages -work msgdma_0_csr_burst_adapter 
+# -- Compiling module altera_avalon_st_pipeline_stage
+# 
+# Top level modules:
+# 	altera_avalon_st_pipeline_stage
+# End time: 20:45:23 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:23 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_avalon_st_pipeline_base.v -L altera_common_sv_packages -work msgdma_0_csr_burst_adapter 
+# -- Compiling module altera_avalon_st_pipeline_base
+# 
+# Top level modules:
+# 	altera_avalon_st_pipeline_base
+# End time: 20:45:23 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:23 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_traffic_limiter.sv -L altera_common_sv_packages -work mm_master_bfm_0_m0_limiter 
+# -- Compiling module altera_merlin_traffic_limiter
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(531): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(602): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(603): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(604): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(605): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(606): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(607): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(612): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(614): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(617): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(618): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(644): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(646): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(647): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(648): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(649): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(650): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(655): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(657): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(660): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_traffic_limiter.sv(661): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_merlin_traffic_limiter
+# End time: 20:45:23 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 21
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:24 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_reorder_memory.sv -L altera_common_sv_packages -work mm_master_bfm_0_m0_limiter 
+# -- Compiling module altera_merlin_reorder_memory
+# -- Compiling module memory_pointer_controller
+# 
+# Top level modules:
+# 	altera_merlin_reorder_memory
+# End time: 20:45:24 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:24 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_avalon_sc_fifo.v -L altera_common_sv_packages -work mm_master_bfm_0_m0_limiter 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 20:45:24 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:24 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_avalon_st_pipeline_base.v -L altera_common_sv_packages -work mm_master_bfm_0_m0_limiter 
+# -- Compiling module altera_avalon_st_pipeline_base
+# 
+# Top level modules:
+# 	altera_avalon_st_pipeline_base
+# End time: 20:45:24 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:24 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/AXI_DMA_mm_interconnect_0_router_004.sv -L altera_common_sv_packages -work router_004 
+# -- Compiling module AXI_DMA_mm_interconnect_0_router_004_default_decode
+# -- Compiling module AXI_DMA_mm_interconnect_0_router_004
+# 
+# Top level modules:
+# 	AXI_DMA_mm_interconnect_0_router_004
+# End time: 20:45:24 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:24 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/AXI_DMA_mm_interconnect_0_router_003.sv -L altera_common_sv_packages -work router_003 
+# -- Compiling module AXI_DMA_mm_interconnect_0_router_003_default_decode
+# -- Compiling module AXI_DMA_mm_interconnect_0_router_003
+# 
+# Top level modules:
+# 	AXI_DMA_mm_interconnect_0_router_003
+# End time: 20:45:24 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:24 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/AXI_DMA_mm_interconnect_0_router_002.sv -L altera_common_sv_packages -work router_002 
+# -- Compiling module AXI_DMA_mm_interconnect_0_router_002_default_decode
+# -- Compiling module AXI_DMA_mm_interconnect_0_router_002
+# 
+# Top level modules:
+# 	AXI_DMA_mm_interconnect_0_router_002
+# End time: 20:45:24 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:24 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/AXI_DMA_mm_interconnect_0_router_001.sv -L altera_common_sv_packages -work router_001 
+# -- Compiling module AXI_DMA_mm_interconnect_0_router_001_default_decode
+# -- Compiling module AXI_DMA_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	AXI_DMA_mm_interconnect_0_router_001
+# End time: 20:45:24 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:24 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/AXI_DMA_mm_interconnect_0_router.sv -L altera_common_sv_packages -work router 
+# -- Compiling module AXI_DMA_mm_interconnect_0_router_default_decode
+# -- Compiling module AXI_DMA_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	AXI_DMA_mm_interconnect_0_router
+# End time: 20:45:24 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:24 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/altera_avalon_sc_fifo.v -work msgdma_0_csr_agent_rsp_fifo 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 20:45:24 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:24 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_slave_agent.sv -L altera_common_sv_packages -work msgdma_0_csr_agent 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: ./../submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: ./../submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./../submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 20:45:24 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:24 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_burst_uncompressor.sv -L altera_common_sv_packages -work msgdma_0_csr_agent 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 20:45:24 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:24 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_master_agent.sv -L altera_common_sv_packages -work mm_master_bfm_0_m0_agent 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 20:45:24 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:24 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_slave_translator.sv -L altera_common_sv_packages -work msgdma_0_csr_translator 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 20:45:24 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:24 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_merlin_master_translator.sv -L altera_common_sv_packages -work mm_master_bfm_0_m0_translator 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 20:45:24 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:24 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/read_master.v -work read_mstr_internal 
+# -- Compiling module read_master
+# 
+# Top level modules:
+# 	read_master
+# End time: 20:45:24 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:24 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/MM_to_ST_Adapter.v -work read_mstr_internal 
+# -- Compiling module MM_to_ST_Adapter
+# 
+# Top level modules:
+# 	MM_to_ST_Adapter
+# End time: 20:45:25 on Jul 23,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:25 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/read_burst_control.v -work read_mstr_internal 
+# -- Compiling module read_burst_control
+# 
+# Top level modules:
+# 	read_burst_control
+# End time: 20:45:25 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:25 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/dispatcher.v -work dispatcher_internal 
+# -- Compiling module dispatcher
+# 
+# Top level modules:
+# 	dispatcher
+# End time: 20:45:25 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:25 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/descriptor_buffers.v -work dispatcher_internal 
+# -- Compiling module descriptor_buffers
+# 
+# Top level modules:
+# 	descriptor_buffers
+# End time: 20:45:25 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:25 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/csr_block.v -work dispatcher_internal 
+# -- Compiling module csr_block
+# 
+# Top level modules:
+# 	csr_block
+# End time: 20:45:25 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:25 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/response_block.v -work dispatcher_internal 
+# -- Compiling module response_block
+# 
+# Top level modules:
+# 	response_block
+# End time: 20:45:25 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:25 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/fifo_with_byteenables.v -work dispatcher_internal 
+# -- Compiling module fifo_with_byteenables
+# 
+# Top level modules:
+# 	fifo_with_byteenables
+# End time: 20:45:25 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:25 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/read_signal_breakout.v -work dispatcher_internal 
+# -- Compiling module read_signal_breakout
+# 
+# Top level modules:
+# 	read_signal_breakout
+# End time: 20:45:25 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:25 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/write_signal_breakout.v -work dispatcher_internal 
+# -- Compiling module write_signal_breakout
+# 
+# Top level modules:
+# 	write_signal_breakout
+# End time: 20:45:25 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:25 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/altera_reset_controller.v -work rst_controller 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 20:45:25 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:25 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/altera_reset_synchronizer.v -work rst_controller 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 20:45:25 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:25 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/AXI_DMA_avalon_st_adapter.v -work avalon_st_adapter 
+# -- Compiling module AXI_DMA_avalon_st_adapter
+# 
+# Top level modules:
+# 	AXI_DMA_avalon_st_adapter
+# End time: 20:45:25 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:25 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/AXI_DMA_mm_interconnect_0.v -work mm_interconnect_0 
+# -- Compiling module AXI_DMA_mm_interconnect_0
+# 
+# Top level modules:
+# 	AXI_DMA_mm_interconnect_0
+# End time: 20:45:25 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:25 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_avalon_st_sink_bfm.sv -L altera_common_sv_packages -work st_sink_bfm_0 
+# -- Compiling module altera_avalon_st_sink_bfm
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_st_sink_bfm
+# End time: 20:45:25 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:25 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/AXI_DMA_onchip_memory2_0.v -work onchip_memory2_0 
+# -- Compiling module AXI_DMA_onchip_memory2_0
+# 
+# Top level modules:
+# 	AXI_DMA_onchip_memory2_0
+# End time: 20:45:25 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:25 on Jul 23,2026
+# vlog -reportprogress 300 ./../submodules/AXI_DMA_msgdma_0.v -work msgdma_0 
+# -- Compiling module AXI_DMA_msgdma_0
+# 
+# Top level modules:
+# 	AXI_DMA_msgdma_0
+# End time: 20:45:25 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:25 on Jul 23,2026
+# vlog -reportprogress 300 -sv ./../submodules/altera_avalon_mm_master_bfm.sv -L altera_common_sv_packages -work mm_master_bfm_0 
+# -- Compiling module altera_avalon_mm_master_bfm
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# -- Importing package altera_common_sv_packages.avalon_mm_pkg
+# -- Importing package altera_common_sv_packages.avalon_utilities_pkg
+# 
+# Top level modules:
+# 	altera_avalon_mm_master_bfm
+# End time: 20:45:26 on Jul 23,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:26 on Jul 23,2026
+# vlog -reportprogress 300 ./../AXI_DMA.v 
+# -- Compiling module AXI_DMA
+# 
+# Top level modules:
+# 	AXI_DMA
+# End time: 20:45:26 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv tb_AXI.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:29 on Jul 23,2026
+# vlog -reportprogress 300 -sv tb_AXI.v 
+# ** Error: tb_AXI.v(4): (vlog-13006) Could not find the package (avalon_mm_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+# End time: 20:45:29 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# D:/QUATUSLITE/modelsim_ase/win32aloem/vlog failed.
+set TOP_LEVEL_NAME tb_AXI
+# tb_AXI
+elab
+# [exec] elab
+# vsim -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L channel_adapter_0 -L avalon_st_adapter_001 -L avalon_st_adapter -L msgdma_0_descriptor_slave_rsp_width_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux_002 -L cmd_mux_002 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L msgdma_0_csr_burst_adapter -L mm_master_bfm_0_m0_limiter -L router_004 -L router_003 -L router_002 -L router_001 -L router -L msgdma_0_csr_agent_rsp_fifo -L msgdma_0_csr_agent -L mm_master_bfm_0_m0_agent -L msgdma_0_csr_translator -L mm_master_bfm_0_m0_translator -L read_mstr_internal -L dispatcher_internal -L rst_controller -L mm_interconnect_0 -L st_sink_bfm_0 -L onchip_memory2_0 -L msgdma_0 -L mm_master_bfm_0 -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver tb_AXI 
+# Start time: 20:45:44 on Jul 23,2026
+# Loading sv_std.std
+# Loading altera_common_sv_packages.verbosity_pkg
+# Loading altera_common_sv_packages.avalon_mm_pkg
+# Loading work.tb_AXI_v_unit
+# Loading work.tb_AXI
+# Loading work.AXI_DMA
+# Loading altera_common_sv_packages.avalon_utilities_pkg
+# Loading mm_master_bfm_0.altera_avalon_mm_master_bfm
+# Loading msgdma_0.AXI_DMA_msgdma_0
+# Loading dispatcher_internal.dispatcher
+# Loading dispatcher_internal.descriptor_buffers
+# Loading dispatcher_internal.write_signal_breakout
+# Loading dispatcher_internal.read_signal_breakout
+# Loading dispatcher_internal.fifo_with_byteenables
+# Loading altera_mf_ver.altsyncram
+# Loading dispatcher_internal.csr_block
+# Loading dispatcher_internal.response_block
+# Loading read_mstr_internal.read_master
+# Loading read_mstr_internal.MM_to_ST_Adapter
+# Loading altera_mf_ver.scfifo
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading read_mstr_internal.read_burst_control
+# Loading onchip_memory2_0.AXI_DMA_onchip_memory2_0
+# Loading st_sink_bfm_0.altera_avalon_st_sink_bfm
+# Loading mm_interconnect_0.AXI_DMA_mm_interconnect_0
+# Loading mm_master_bfm_0_m0_translator.altera_merlin_master_translator
+# Loading msgdma_0_csr_translator.altera_merlin_slave_translator
+# Loading mm_master_bfm_0_m0_agent.altera_merlin_master_agent
+# Loading msgdma_0_csr_agent.altera_merlin_slave_agent
+# Loading msgdma_0_csr_agent.altera_merlin_burst_uncompressor
+# Loading mm_master_bfm_0_m0_limiter.altera_avalon_sc_fifo
+# Loading router.AXI_DMA_mm_interconnect_0_router
+# Loading router.AXI_DMA_mm_interconnect_0_router_default_decode
+# Loading router_001.AXI_DMA_mm_interconnect_0_router_001
+# Loading router_001.AXI_DMA_mm_interconnect_0_router_001_default_decode
+# Loading router_002.AXI_DMA_mm_interconnect_0_router_002
+# Loading router_002.AXI_DMA_mm_interconnect_0_router_002_default_decode
+# Loading router_003.AXI_DMA_mm_interconnect_0_router_003
+# Loading router_003.AXI_DMA_mm_interconnect_0_router_003_default_decode
+# Loading router_004.AXI_DMA_mm_interconnect_0_router_004
+# Loading router_004.AXI_DMA_mm_interconnect_0_router_004_default_decode
+# Loading mm_master_bfm_0_m0_limiter.altera_merlin_traffic_limiter
+# Loading msgdma_0_csr_burst_adapter.altera_merlin_burst_adapter
+# Loading cmd_demux.AXI_DMA_mm_interconnect_0_cmd_demux
+# Loading cmd_demux_001.AXI_DMA_mm_interconnect_0_cmd_demux_001
+# Loading cmd_mux.AXI_DMA_mm_interconnect_0_cmd_mux
+# Loading cmd_mux_002.AXI_DMA_mm_interconnect_0_cmd_mux_002
+# Loading cmd_mux_002.altera_merlin_arbitrator
+# Loading cmd_mux_002.altera_merlin_arb_adder
+# Loading rsp_demux_002.AXI_DMA_mm_interconnect_0_rsp_demux_002
+# Loading rsp_mux.AXI_DMA_mm_interconnect_0_rsp_mux
+# Loading rsp_mux.altera_merlin_arbitrator
+# Loading rsp_mux.altera_merlin_arb_adder
+# Loading rsp_mux_001.AXI_DMA_mm_interconnect_0_rsp_mux_001
+# Loading msgdma_0_descriptor_slave_rsp_width_adapter.altera_merlin_width_adapter
+# Loading avalon_st_adapter.AXI_DMA_mm_interconnect_0_avalon_st_adapter
+# Loading error_adapter_0.AXI_DMA_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading avalon_st_adapter_001.AXI_DMA_mm_interconnect_0_avalon_st_adapter_001
+# Loading error_adapter_0.AXI_DMA_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0
+# Loading avalon_st_adapter.AXI_DMA_avalon_st_adapter
+# Loading channel_adapter_0.AXI_DMA_avalon_st_adapter_channel_adapter_0
+# Loading rst_controller.altera_reset_controller
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading msgdma_0_csr_burst_adapter.altera_merlin_burst_adapter_13_1
+# Loading msgdma_0_csr_burst_adapter.altera_merlin_address_alignment
+# Loading msgdma_0_csr_burst_adapter.altera_merlin_burst_adapter_burstwrap_increment
+# Loading msgdma_0_csr_burst_adapter.altera_merlin_burst_adapter_min
+# Loading msgdma_0_csr_burst_adapter.altera_merlin_burst_adapter_subtractor
+# Loading msgdma_0_csr_burst_adapter.altera_merlin_burst_adapter_adder
+# Loading msgdma_0_descriptor_slave_rsp_width_adapter.altera_merlin_burst_uncompressor
+# Loading rst_controller.altera_reset_synchronizer
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+# ** Warning: (vsim-3017) tb_AXI.v(13): [TFMPC] - Too few port connections. Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_AXI/dut File: ./../AXI_DMA.v
+# ** Warning: (vsim-3722) tb_AXI.v(13): [TFMPC] - Missing connection for port 'msgdma_0_csr_irq_irq'.
+# ** Warning: (vsim-3017) ./../AXI_DMA.v(87): [TFMPC] - Too few port connections. Expected 25, found 24.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_AXI/dut/mm_master_bfm_0 File: ./../submodules/altera_avalon_mm_master_bfm.sv
+# ** Warning: (vsim-3722) ./../AXI_DMA.v(87): [TFMPC] - Missing connection for port 'avm_writeresponserequest'.
+# ** Warning: (vsim-3017) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_AXI/dut/msgdma_0/dispatcher_internal/the_descriptor_buffers/the_read_command_FIFO/the_dp_ram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_AXI/dut/msgdma_0/dispatcher_internal/the_descriptor_buffers/the_write_command_FIFO/the_dp_ram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./../submodules/read_master.v(561): [TFMPC] - Too few port connections. Expected 13, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_AXI/dut/msgdma_0/read_mstr_internal/the_master_to_st_fifo File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./../submodules/read_master.v(561): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3722) ./../submodules/read_master.v(561): [TFMPC] - Missing connection for port 'almost_full'.
+# ** Warning: (vsim-3722) ./../submodules/read_master.v(561): [TFMPC] - Missing connection for port 'almost_empty'.
+# ** Warning: (vsim-3017) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_AXI/dut/onchip_memory2_0/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: Design size of 12867 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# WARNING: No extended dataflow license exists
+vlog -sv -L altera_common_sv_packages tb_AXI.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:46:42 on Jul 23,2026
+# vlog -reportprogress 300 -sv -L altera_common_sv_packages tb_AXI.v 
+# -- Compiling package tb_AXI_v_unit
+# -- Importing package altera_common_sv_packages.avalon_mm_pkg
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# -- Compiling module tb_AXI
+# 
+# Top level modules:
+# 	tb_AXI
+# End time: 20:46:42 on Jul 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+elab
+# [exec] elab
+# End time: 20:46:46 on Jul 23,2026, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 62
+# vsim -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L channel_adapter_0 -L avalon_st_adapter_001 -L avalon_st_adapter -L msgdma_0_descriptor_slave_rsp_width_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux_002 -L cmd_mux_002 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L msgdma_0_csr_burst_adapter -L mm_master_bfm_0_m0_limiter -L router_004 -L router_003 -L router_002 -L router_001 -L router -L msgdma_0_csr_agent_rsp_fifo -L msgdma_0_csr_agent -L mm_master_bfm_0_m0_agent -L msgdma_0_csr_translator -L mm_master_bfm_0_m0_translator -L read_mstr_internal -L dispatcher_internal -L rst_controller -L mm_interconnect_0 -L st_sink_bfm_0 -L onchip_memory2_0 -L msgdma_0 -L mm_master_bfm_0 -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver tb_AXI 
+# Start time: 20:46:46 on Jul 23,2026
+# Loading sv_std.std
+# Loading altera_common_sv_packages.verbosity_pkg
+# Loading altera_common_sv_packages.avalon_mm_pkg
+# Loading work.tb_AXI_v_unit
+# Loading work.tb_AXI
+# Loading work.AXI_DMA
+# Loading altera_common_sv_packages.avalon_utilities_pkg
+# Loading mm_master_bfm_0.altera_avalon_mm_master_bfm
+# Loading msgdma_0.AXI_DMA_msgdma_0
+# Loading dispatcher_internal.dispatcher
+# Loading dispatcher_internal.descriptor_buffers
+# Loading dispatcher_internal.write_signal_breakout
+# Loading dispatcher_internal.read_signal_breakout
+# Loading dispatcher_internal.fifo_with_byteenables
+# Loading altera_mf_ver.altsyncram
+# Loading dispatcher_internal.csr_block
+# Loading dispatcher_internal.response_block
+# Loading read_mstr_internal.read_master
+# Loading read_mstr_internal.MM_to_ST_Adapter
+# Loading altera_mf_ver.scfifo
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading read_mstr_internal.read_burst_control
+# Loading onchip_memory2_0.AXI_DMA_onchip_memory2_0
+# Loading st_sink_bfm_0.altera_avalon_st_sink_bfm
+# Loading mm_interconnect_0.AXI_DMA_mm_interconnect_0
+# Loading mm_master_bfm_0_m0_translator.altera_merlin_master_translator
+# Loading msgdma_0_csr_translator.altera_merlin_slave_translator
+# Loading mm_master_bfm_0_m0_agent.altera_merlin_master_agent
+# Loading msgdma_0_csr_agent.altera_merlin_slave_agent
+# Loading msgdma_0_csr_agent.altera_merlin_burst_uncompressor
+# Loading mm_master_bfm_0_m0_limiter.altera_avalon_sc_fifo
+# Loading router.AXI_DMA_mm_interconnect_0_router
+# Loading router.AXI_DMA_mm_interconnect_0_router_default_decode
+# Loading router_001.AXI_DMA_mm_interconnect_0_router_001
+# Loading router_001.AXI_DMA_mm_interconnect_0_router_001_default_decode
+# Loading router_002.AXI_DMA_mm_interconnect_0_router_002
+# Loading router_002.AXI_DMA_mm_interconnect_0_router_002_default_decode
+# Loading router_003.AXI_DMA_mm_interconnect_0_router_003
+# Loading router_003.AXI_DMA_mm_interconnect_0_router_003_default_decode
+# Loading router_004.AXI_DMA_mm_interconnect_0_router_004
+# Loading router_004.AXI_DMA_mm_interconnect_0_router_004_default_decode
+# Loading mm_master_bfm_0_m0_limiter.altera_merlin_traffic_limiter
+# Loading msgdma_0_csr_burst_adapter.altera_merlin_burst_adapter
+# Loading cmd_demux.AXI_DMA_mm_interconnect_0_cmd_demux
+# Loading cmd_demux_001.AXI_DMA_mm_interconnect_0_cmd_demux_001
+# Loading cmd_mux.AXI_DMA_mm_interconnect_0_cmd_mux
+# Loading cmd_mux_002.AXI_DMA_mm_interconnect_0_cmd_mux_002
+# Loading cmd_mux_002.altera_merlin_arbitrator
+# Loading cmd_mux_002.altera_merlin_arb_adder
+# Loading rsp_demux_002.AXI_DMA_mm_interconnect_0_rsp_demux_002
+# Loading rsp_mux.AXI_DMA_mm_interconnect_0_rsp_mux
+# Loading rsp_mux.altera_merlin_arbitrator
+# Loading rsp_mux.altera_merlin_arb_adder
+# Loading rsp_mux_001.AXI_DMA_mm_interconnect_0_rsp_mux_001
+# Loading msgdma_0_descriptor_slave_rsp_width_adapter.altera_merlin_width_adapter
+# Loading avalon_st_adapter.AXI_DMA_mm_interconnect_0_avalon_st_adapter
+# Loading error_adapter_0.AXI_DMA_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading avalon_st_adapter_001.AXI_DMA_mm_interconnect_0_avalon_st_adapter_001
+# Loading error_adapter_0.AXI_DMA_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0
+# Loading avalon_st_adapter.AXI_DMA_avalon_st_adapter
+# Loading channel_adapter_0.AXI_DMA_avalon_st_adapter_channel_adapter_0
+# Loading rst_controller.altera_reset_controller
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading msgdma_0_csr_burst_adapter.altera_merlin_burst_adapter_13_1
+# Loading msgdma_0_csr_burst_adapter.altera_merlin_address_alignment
+# Loading msgdma_0_csr_burst_adapter.altera_merlin_burst_adapter_burstwrap_increment
+# Loading msgdma_0_csr_burst_adapter.altera_merlin_burst_adapter_min
+# Loading msgdma_0_csr_burst_adapter.altera_merlin_burst_adapter_subtractor
+# Loading msgdma_0_csr_burst_adapter.altera_merlin_burst_adapter_adder
+# Loading msgdma_0_descriptor_slave_rsp_width_adapter.altera_merlin_burst_uncompressor
+# Loading rst_controller.altera_reset_synchronizer
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+# ** Warning: (vsim-3017) tb_AXI.v(13): [TFMPC] - Too few port connections. Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_AXI/dut File: ./../AXI_DMA.v
+# ** Warning: (vsim-3722) tb_AXI.v(13): [TFMPC] - Missing connection for port 'msgdma_0_csr_irq_irq'.
+# ** Warning: (vsim-3017) ./../AXI_DMA.v(87): [TFMPC] - Too few port connections. Expected 25, found 24.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_AXI/dut/mm_master_bfm_0 File: ./../submodules/altera_avalon_mm_master_bfm.sv
+# ** Warning: (vsim-3722) ./../AXI_DMA.v(87): [TFMPC] - Missing connection for port 'avm_writeresponserequest'.
+# ** Warning: (vsim-3017) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_AXI/dut/msgdma_0/dispatcher_internal/the_descriptor_buffers/the_read_command_FIFO/the_dp_ram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_AXI/dut/msgdma_0/dispatcher_internal/the_descriptor_buffers/the_write_command_FIFO/the_dp_ram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) ./../submodules/fifo_with_byteenables.v(128): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./../submodules/read_master.v(561): [TFMPC] - Too few port connections. Expected 13, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_AXI/dut/msgdma_0/read_mstr_internal/the_master_to_st_fifo File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./../submodules/read_master.v(561): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3722) ./../submodules/read_master.v(561): [TFMPC] - Missing connection for port 'almost_full'.
+# ** Warning: (vsim-3722) ./../submodules/read_master.v(561): [TFMPC] - Missing connection for port 'almost_empty'.
+# ** Warning: (vsim-3017) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_AXI/dut/onchip_memory2_0/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) ./../submodules/AXI_DMA_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: Design size of 12867 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/tb_AXI/dut/mm_master_bfm_0/*
+add wave -position insertpoint sim:/tb_AXI/dut/st_sink_bfm_0/*
+run -all
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: - Hello from altera_avalon_mm_master_bfm
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   $Revision: #1 $
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   AV_ADDRESS_W             = 32
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   AV_SYMBOL_W              = 8
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   AV_NUMSYMBOLS            = 4
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   AV_BURSTCOUNT_W          = 3
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   REGISTER_WAITREQUEST     = 0
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   AV_FIX_READ_LATENCY      = 1
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   AV_MAX_PENDING_READS     = 0
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   AV_MAX_PENDING_WRITES    = 0
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   USE_READ                 = 1
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   USE_WRITE                = 1
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   USE_ADDRESS              = 1
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   USE_BYTE_ENABLE          = 1
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   USE_BURSTCOUNT           = 1
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   USE_READ_DATA            = 1
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   USE_READ_DATA_VALID      = 1
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   USE_WRITE_DATA           = 1
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   USE_BEGIN_TRANSFER       = 0
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   USE_BEGIN_BURST_TRANSFER = 0
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   USE_WAIT_REQUEST         = 1
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   USE_LOCK                 = 0
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   USE_DEBUGACCESS          = 0
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   USE_TRANSACTIONID        = 0
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   USE_WRITERESPONSE        = 0
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   USE_READRESPONSE         = 0
+#                    0: INFO: tb_AXI.dut.mm_master_bfm_0.__hello: -   USE_CLKEN                = 0
+#                    0: INFO: ------------------------------------------------------------
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: tb_AXI.dut.onchip_memory2_0.the_altsyncram.m_default.altsyncram_inst
+#                    0: INFO: tb_AXI.dut.st_sink_bfm_0.__hello: - Hello from altera_avalon_st_sink_bfm.
+#                    0: INFO: tb_AXI.dut.st_sink_bfm_0.__hello: -   $Revision: #1 $
+#                    0: INFO: tb_AXI.dut.st_sink_bfm_0.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: tb_AXI.dut.st_sink_bfm_0.__hello: -   ST_SYMBOL_W   	  = 8
+#                    0: INFO: tb_AXI.dut.st_sink_bfm_0.__hello: -   ST_NUMSYMBOLS 	  = 4
+#                    0: INFO: tb_AXI.dut.st_sink_bfm_0.__hello: -   ST_CHANNEL_W  	  = 1
+#                    0: INFO: tb_AXI.dut.st_sink_bfm_0.__hello: -   ST_ERROR_W    	  = 1
+#                    0: INFO: tb_AXI.dut.st_sink_bfm_0.__hello: -   ST_EMPTY_W    	  = 2
+#                    0: INFO: tb_AXI.dut.st_sink_bfm_0.__hello: -   ST_READY_LATENCY = 0
+#                    0: INFO: tb_AXI.dut.st_sink_bfm_0.__hello: -   ST_MAX_CHANNELS  = 1
+#                    0: INFO: tb_AXI.dut.st_sink_bfm_0.__hello: -   ST_BEATSPERCYCLE = 1
+#                    0: INFO: tb_AXI.dut.st_sink_bfm_0.__hello: -   USE_PACKET  	  = 0
+#                    0: INFO: tb_AXI.dut.st_sink_bfm_0.__hello: -   USE_CHANNEL 	  = 1
+#                    0: INFO: tb_AXI.dut.st_sink_bfm_0.__hello: -   USE_ERROR 	  = 0
+#                    0: INFO: tb_AXI.dut.st_sink_bfm_0.__hello: -   USE_READY 	  = 1
+#                    0: INFO: tb_AXI.dut.st_sink_bfm_0.__hello: -   USE_VALID 	  = 1
+#                    0: INFO: tb_AXI.dut.st_sink_bfm_0.__hello: -   USE_EMPTY 	  = 0
+#                    0: INFO: ------------------------------------------------------------
+# --- [TB] He thong da san sang ---
+# --- [TB] Ghi mang du lieu moi vao RAM ---
+#               200000: ERROR: tb_AXI.dut.mm_master_bfm_0.push_command: Illegal command while reset asserted
+#               200000: WARNING: tb_AXI.dut.mm_master_bfm_0.push_command: burst_size and burst_count do not match
+#               200000: FAILURE: verbosity_pkg.abort_simulation: Abort the simulation due to fatal error incident.
+# ** Note: $stop    : ./../submodules/verbosity_pkg.sv(185)
+#    Time: 200 ns  Iteration: 1  Instance: /tb_AXI/dut/mm_master_bfm_0
+# Break in Function abort_simulation at ./../submodules/verbosity_pkg.sv line 185

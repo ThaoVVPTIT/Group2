@@ -1,0 +1,21 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst AXI_DMA.msgdma_0.rst_inst -pg 1
+preplace inst AXI_DMA.msgdma_0.dispatcher_internal -pg 1
+preplace inst AXI_DMA.msgdma_0 -pg 1 -lvl 3 -y 110
+preplace inst AXI_DMA.msgdma_0.read_mstr_internal -pg 1
+preplace inst AXI_DMA.mm_master_bfm_0 -pg 1 -lvl 2 -y 50
+preplace inst AXI_DMA.msgdma_0.cb_inst -pg 1
+preplace inst AXI_DMA.clk_0 -pg 1 -lvl 1 -y 90
+preplace inst AXI_DMA -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst AXI_DMA.st_sink_bfm_0 -pg 1 -lvl 4 -y 110
+preplace inst AXI_DMA.onchip_memory2_0 -pg 1 -lvl 4 -y 30
+preplace netloc EXPORT<net_container>AXI_DMA</net_container>(SLAVE)AXI_DMA.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>AXI_DMA</net_container>(MASTER)mm_master_bfm_0.m0,(SLAVE)msgdma_0.descriptor_slave,(MASTER)msgdma_0.mm_read,(SLAVE)onchip_memory2_0.s1,(SLAVE)msgdma_0.csr) 1 2 2 510 70 790
+preplace netloc EXPORT<net_container>AXI_DMA</net_container>(SLAVE)msgdma_0.csr_irq,(SLAVE)AXI_DMA.msgdma_0_csr_irq) 1 0 3 NJ 160 NJ 160 NJ
+preplace netloc FAN_OUT<net_container>AXI_DMA</net_container>(SLAVE)onchip_memory2_0.clk1,(SLAVE)msgdma_0.clock,(MASTER)clk_0.clk,(SLAVE)st_sink_bfm_0.clk,(SLAVE)mm_master_bfm_0.clk) 1 1 3 320 140 530 50 810
+preplace netloc EXPORT<net_container>AXI_DMA</net_container>(SLAVE)AXI_DMA.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>AXI_DMA</net_container>(SLAVE)mm_master_bfm_0.clk_reset,(MASTER)clk_0.clk_reset,(SLAVE)onchip_memory2_0.reset1,(SLAVE)st_sink_bfm_0.clk_reset,(SLAVE)msgdma_0.reset_n) 1 1 3 340 120 490 250 830
+preplace netloc POINT_TO_POINT<net_container>AXI_DMA</net_container>(MASTER)msgdma_0.st_source,(SLAVE)st_sink_bfm_0.sink) 1 3 1 N
+levelinfo -pg 1 0 110 1000
+levelinfo -hier AXI_DMA 120 150 380 650 880 990

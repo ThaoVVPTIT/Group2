@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/QUATUSLITE/AXI_DMA/simulation/mentor
+vAXI_DMA_mm_interconnect_0_avalon_st_adapter_001
+!s110 1784835371
+!i10b 1
+!s100 jS5DbeoNoh49KPj=e17WQ1
+IO7Kd2CJW99]lJVJa^Bj_32
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1784565354
+8./../submodules/AXI_DMA_mm_interconnect_0_avalon_st_adapter_001.v
+F./../submodules/AXI_DMA_mm_interconnect_0_avalon_st_adapter_001.v
+L0 9
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1784835371.000000
+!s107 ./../submodules/AXI_DMA_mm_interconnect_0_avalon_st_adapter_001.v|
+!s90 -reportprogress|300|./../submodules/AXI_DMA_mm_interconnect_0_avalon_st_adapter_001.v|-work|avalon_st_adapter_001|
+!i113 1
+o-work avalon_st_adapter_001
+tCvgOpt 0
+n@a@x@i_@d@m@a_mm_interconnect_0_avalon_st_adapter_001
