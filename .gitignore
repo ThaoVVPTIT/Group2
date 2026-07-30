@@ -1,0 +1,23 @@
+# Bỏ qua các thư mục tự sinh của Vivado
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+.Xil/
+
+# Bỏ qua các thư mục tự sinh của Vitis
+*workspace_vitis/
+*_ide/
+*.o
+*.obj
+*.elf
+*.bin
+*.mem
+
+# Bỏ qua các file log
+*.log
+*.jou
+*.str
+*.pb
